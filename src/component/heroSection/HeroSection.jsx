@@ -1,5 +1,5 @@
 import Img from '../lazyLoadImg/Img'
-import ContentWrapper from '../contentWrapper/contentWrapper'
+import ContentWrapper from '../contentWrapper/ContentWrapper'
 import{useState,useEffect} from 'react'
 import { useNavigate } from 'react-router-dom'
 import {useSelector} from "react-redux"
