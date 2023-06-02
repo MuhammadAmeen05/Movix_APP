@@ -1,6 +1,6 @@
 import  { useState } from "react";
 import "./style.scss";
-import ContentWrapper from "../../../component/contentWrapper/contentWrapper";
+import ContentWrapper from "../../../component/contentWrapper/ContentWrapper";
 import VideoPopUp from "../../../component/videoPopUp/VideoPopUp";
 import Img from "../../../component/lazyLoadImg/Img";
 import { PlayIcon } from "../detailsBanner/PlayIcon";

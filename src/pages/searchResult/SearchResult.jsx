@@ -7,6 +7,7 @@ import { fetchDataFromApi } from '../../utils/api'
 import ContentWrapper from '../../component/contentWrapper/ContentWrapper'
 import noResult from '../../assets/no-results.png'
 import './style.scss'
+import Img from '../../component/lazyLoadImg/Img'
 import Spinner from '../../component/spinner/Spinner'
 import MovieCard from '../../component/MovieCard/MovieCard'
 const SearchResult = () => {
@@ -72,6 +73,7 @@ const SearchResult = () => {
         ):(
            <span className="resultNotFound">
             Sorry,Result Not Found!
+                <Img src={noResult}/>
            </span>
         )}
         </ContentWrapper>}

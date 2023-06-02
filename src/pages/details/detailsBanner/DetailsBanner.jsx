@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import dayjs from "dayjs";
-import ContentWrapper from "../../../component/contentWrapper/contentWrapper";
+import ContentWrapper from "../../../component/contentWrapper/ContentWrapper";
 import useFetch from "../../../hooks/useFetch";
 import Genres from "../../../component/genres/Genres";
 import CircleRating from "../../../component/circleRating/CircleRating";

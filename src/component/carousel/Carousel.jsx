@@ -1,6 +1,6 @@
 //import React from 'react'
 import './style.scss'
-import React, { useRef } from "react";
+import { useRef } from "react";
 import {
     BsFillArrowLeftCircleFill,
     BsFillArrowRightCircleFill,
